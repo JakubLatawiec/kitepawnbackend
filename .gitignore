@@ -362,10 +362,6 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 
-# EF Core migrations
-Migrations/*Designer.cs
-Migrations/*Snapshot.cs
-
 # SDK
 *.csproj.nuget.g.props
 *.csproj.nuget.g.targets
@@ -379,3 +375,9 @@ project.lock.json
 appsettings.Development.json
 appsettings.json
 !appsettings.example.json
+
+# Launch settings
+launchSettings.json
+
+# Enviroments
+.env
